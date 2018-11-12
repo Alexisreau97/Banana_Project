@@ -9,8 +9,6 @@ nav {
 }
 
 .logo {
-	display: flex;
-	justify-content: center;
 	width: 60px;
 	height: 60px;
 }
@@ -33,7 +31,7 @@ main {
 
 .image {
 	grid-column-start: 2;
-	width: 480px; 
+	width: 480px;
 	height: 360px;
 }
 
@@ -54,7 +52,33 @@ hr {
 	grid-column-end: 5;
 }
 
-.rs {
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	margin-bottom: 80px;
+}
+
+.rs1 {
+	background-color: #1da1f2;
+	border-radius: 20px;
 	width: 100px; 
 	height: 100px;
 }
+
+.rs2 {
+	background: #12c2e9;
+	background: -webkit-linear-gradient(to right, #f7a94b, #e94c56, #a52fb7);
+	background: linear-gradient(to right, #f7a94b, #e94c56, #a52fb7);
+	border-radius: 20px;
+	width: 100px; 
+	height: 100px;
+}
+
+.rs3 {
+	background-color: #ff0000;
+	border-radius: 20px;
+	width: 100px; 
+	height: 100px;
+}
+
