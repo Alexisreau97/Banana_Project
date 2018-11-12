@@ -22,7 +22,7 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	font-size: 80px;
 	color: #eedb28;
-	margin: 30px 0px 20px 0px;
+	margin: 40px 0px 30px 0px;
 }
 
 h1:hover {
@@ -104,7 +104,7 @@ p {
 
 
 hr {
-	margin: 60px 200px 20px 200px;
+	margin: 80px 200px 60px 200px;
 	border: 0;
 	height: 1px;
 	background: #f927cc;
@@ -116,7 +116,7 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
-	margin: 80px 0px 80px 0px;
+	margin: 80px 0px 60px 0px;
 }
 
 .rs1 {
@@ -167,6 +167,18 @@ footer {
 .rs3:hover {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+
+.rs-img {
+	padding: 5px 0px 0px 5px;
+	width: 90px; 
+	height: 90px;
+	opacity: 0;
+	transition: .2s;
+}
+
+.rs-img:hover {
+	opacity: 1;
 }
 
 ::-moz-selection {
